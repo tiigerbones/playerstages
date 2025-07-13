@@ -1,0 +1,21 @@
+{
+  "stage_id": "stage_2",
+  "name": "Intermediate Stage",
+  "level": 2,
+  "final": true,
+  "restricted": {
+    "items": [
+      "minecraft:iron_pickaxe"
+    ],
+    "blocks": [
+      "minecraft:diamond_ore"
+    ]
+  },
+  "unlock_conditions": [
+    {
+      "type": "item_pickup",
+      "item": "minecraft:iron_ingot",
+      "count": 5
+    }
+  ]
+}

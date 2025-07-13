@@ -1,0 +1,24 @@
+{
+  "stage_id": "stage_1",
+  "name": "Beginner Stage",
+  "level": 1,
+  "final": false,
+  "restricted": {
+    "items": [
+      "minecraft:stone_pickaxe",
+      "minecraft:stone_sword",
+      "minecraft:stone_hoe",
+      "minecraft:fishing_rod"
+    ],
+    "blocks": [
+      "minecraft:stone"
+    ]
+  },
+  "unlock_conditions": [
+    {
+      "type": "item_pickup",
+      "item": "minecraft:dirt",
+      "count": 5
+    }
+  ]
+}
