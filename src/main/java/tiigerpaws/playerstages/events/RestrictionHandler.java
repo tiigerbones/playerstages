@@ -5,8 +5,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.world.World;
 import tiigerpaws.playerstages.PlayerStages;
-import tiigerpaws.playerstages.config.RestrictionConfig;
 import net.minecraft.registry.Registries;
+import tiigerpaws.playerstages.config.RestrictionConfig;
 
 public class RestrictionHandler {
     public static boolean applyRestrictions(ServerPlayerEntity player, ItemStack stack, World world) {

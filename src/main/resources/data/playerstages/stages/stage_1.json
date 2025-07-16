@@ -12,6 +12,9 @@
     ],
     "blocks": [
       "minecraft:stone"
+    ],
+    "dimensions": [
+      "minecraft:the_nether"
     ]
   },
   "unlock_conditions": [
